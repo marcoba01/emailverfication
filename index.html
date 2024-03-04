@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Email Validation</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container">
+         <header>Email Validation</header>
+         <form action="#" class="login_form">
+            <div class="error-text"></div>
+            <div class="field">
+               <input onkeyup="active()" id="email_1" name="" type="text" placeholder="Enter Email" required/>
+            </div>
+            <span id="text"></span>
+            <div class="field">
+               <input onkeyup="active_2()" id="email_2" type="text" name="" placeholder="Confirm Email" required>
+            </div>
+            <span id="text"></span>
+            <button>SUMBIT</button>
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
